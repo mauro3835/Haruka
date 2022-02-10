@@ -30,7 +30,7 @@ exports.owner = (botname) =>{
 	return` ❌ Comando especial del propietario ${botname}`
 	}
 exports.admin = (groupName) =>{
-	return❌ Comandos especiales de administración ${groupName}`
+	return` ❌ Comandos especiales para administración ${groupName}`
 	}
 exports.adminB = () =>{
 	return`⚠️ El bot tiene que ser admin para este comando`
