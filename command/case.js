@@ -653,7 +653,7 @@ case 'memegenerator': case 'meme':{
 									if (args.length < 1) return reply(`Ejemplo: *${prefix + command}* texto|texto`)
 									if (!q.includes('|')) return reply(`Ejemplo: *${prefix + command}* texto|texto`)
 									try {
-										if (!isQuotedImage) return reply(Responde a una imágen!`)
+										if (!isQuotedImage) return reply(`Responde a una imágen!`)
 										reply(lang.wait())
 										var teks1 = q.split('|')[0] ? q.split('|')[0] : ''
 										var teks2 = q.split('|')[1] ? q.split('|')[1] : ''
